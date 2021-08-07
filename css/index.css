@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgba(255, 204, 204, 0.2); 
+    min-height: 100vh; 
+}
+/*CHolonto uporer likha*/
+marquee {
+    width: 100%;
+    line-height: 2px;
+    border: none ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    word-spacing: 5px;
+    height: 30px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+/*Navigation Bar er jonne card/JEKONO*/
+.card-nav {
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*Navigation Bar er list gulo ba likhagulu boshanur jonne/JEKONO*/
+nav ul {
+   display: flex;
+   list-style-type: none;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+}
+/*Nav er logo image ta*/
+nav img {
+    height: 60px;
+    width: 120px;
+    border-radius: 400px;
+}
+
+/*Home theke Link porjonto button gulur jonne*/
+.nav-button .v {
+    background: transparent;
+    color: #000000;
+    border: 3px solid #db1c1c;
+    border-radius: 120px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+/*Home theke Link porjonto button gulur jonne unspecial with hover effect only color*/
+.nav-button .v:hover{
+    background: transparent;
+    border: transparent;
+    color: #db1c1c;
+}
+/*eta sing in ar hire button er jonne*/
+
+.nav-button-hire .l {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #db1c1c;
+    background-color: #db1c1c;
+    border-radius: 120px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*eta sing in ar hire button er jonne eta special with hover effect*/
+.nav-button-hire .l:hover {
+    background: transparent;
+    color: #db1c1c;
+    border: 3px solid #db1c1c;
+    transition: all 0.2s ease
+}
+.a {
+    margin-left: 50px;
+    
+}
+.mipon {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.hire-me {
+    margin-left: 110px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    padding-left: 25px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    background-color: #666;
+    color: cornsilk;
+    font-weight: bold;
+}
+.hi {
+    margin-top: -280px;
+}
+.about {
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.about-data {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.big-img {
+    width: 400px;
+    height: 300px;
+    margin-left: 500px;
+    border: none;
+    border-radius: 30px;
+}
+.description {
+    margin-top: 20px;
+}
+.more-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    
+}
+.more-info:hover {
+    border: transparent;
+    color: blue;
+}
+.services-i-can-provide{
+    font-size: 35px;
+}
+.services {
+
+}
+.signeture {
+    margin-left: 800px;
+}
+
+
+.services {
+    margin-top: 40px;
+    width: 300px;
+    height: 120px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    border-radius: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(252, 186, 186);
+    text-transform: capitalize;
+}
+.all-rights{
+    margin-bottom: 20px;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+}
+
+@media screen and (max-width: 720px) {
+    * {
+        margin-left: 0;
+        padding: 0;
+        
+        box-sizing: border-box;
+        
+    }
+    
+    
+    .big-img {
+        margin-top: 30px;
+        margin-left: -15px;
+        width: 300px;
+        height: 200px;
+    }
+    .hi {
+        margin-top: 50px;
+        font-size: 30px;
+        margin-left: -45px;
+}
+.mipon {
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.hire-me {
+    margin-left: 60px;
+}
+.development {
+    margin-left: 80px;
+}
+.services {
+    margin-left: -40px;
+}
+.services-i-can-provide {
+    
+    font-size: 30px;
+    margin-left: -45px;
+}
+.marquee {
+        margin-right: -20px;
+        
+    }
+    .signeture {
+        margin-top: 10px;
+        margin-left: 180px;
+        border: none;
+        border-radius: 20;
+    }
+    .card-nav {
+        width: 100%;
+    }
+    nav ul li a {
+        font-size: 10px;
+    }
+    .nav-button .v {
+        display: none;
+    }
+    .about {
+        margin-left: -45px;
+        font-size: 30px;
+    }.about-data {
+        margin-left: -10px;
+    }
+    .description {
+        margin-left: -45px;
+        font-size: 30px;
+    }
+    .des-data {
+        margin-left: -45px;
+    }
+    .more-info{
+        margin-left: -45px;
+        margin-top: 5px;
+    }
+    .all-rights {
+        margin-left: -45px;
+    }
+} 
